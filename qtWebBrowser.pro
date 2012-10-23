@@ -5,6 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui
+QT       += webkit
 
 TARGET = qtWebBrowser
 TEMPLATE = app

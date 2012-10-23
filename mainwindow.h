@@ -1,5 +1,4 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+#pragma once
 
 #include <QMainWindow>
 
@@ -17,6 +16,9 @@ public:
     
 private:
     Ui::MainWindow *ui;
+
+private slots:
+	void loadPage();
 };
 
-#endif // MAINWINDOW_H
+
